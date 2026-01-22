@@ -70,7 +70,7 @@ def save_data(data_path: str,train_data: pd.DataFrame,test_data: pd.DataFrame) -
 
 def main():
 
-    test_size = load_params('params1.yaml')
+    test_size = load_params('params.yaml')
     df = read_data('https://raw.githubusercontent.com/campusx-official/jupyter-masterclass/main/tweet_emotions.csv')
     
     final_df = process_data(df)
